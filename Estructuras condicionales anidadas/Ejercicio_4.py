@@ -9,4 +9,14 @@
 	#Fuera de nivel:	Porcentaje<50%.
 
 totalPreguntas = int(input('Ingrese el total de preguntas realizadas:'))
-respuestasCorrectas = int(input('Ingrese la cantidad de respuestas contestas correctamente'))
+respuestasCorrectas = int(input('Ingrese la cantidad de respuestas contestas correctamente:'))
+porcentajeObtenido = (totalPreguntas * respuestasCorrectas)//100
+
+if porcentajeObtenido >=90:
+	print('Nivel maximo')
+elif porcentajeObtenido >=75 and porcentajeObtenido < 90:
+	print('Nivel medio')
+elif porcentajeObtenido >=50 and porcentajeObtenido < 75:
+	print('Nivel regular')
+else:
+	print('Fuera de nivel')
