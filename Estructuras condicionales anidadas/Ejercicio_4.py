@@ -10,3 +10,15 @@
 
 totalPreguntas = int(input('Ingrese el total de preguntas realizadas:'))
 respuestasCorrectas = int(input('Ingrese la cantidad de respuestas contestas correctamente'))
+porcentaje = (respuestasCorrectas * 100) // totalPreguntas
+
+if porcentaje >= 90:
+	print('Nivel maximo')
+elif porcentaje >= 75 and porcentaje < 90:
+	print('Nivel medio')
+elif porcentaje >= 50 and porcentaje < 75:
+	print('Nivel regular')
+elif porcentaje < 50:
+	print('Fuera de nivel')
+else:
+	print('Error')
