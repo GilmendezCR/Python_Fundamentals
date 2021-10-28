@@ -1,0 +1,4 @@
+String methods:
+#upper() : devuelve una cadena de caracteres convertida todos sus caracteres a mayúsculas.
+#lower() : devuelve una cadena de caracteres convertida todos sus caracteres a minúsculas.
+s#capitalize() : devuelve una cadena de caracteres convertida a mayúscula solo su primer caracter y todos los demás a minisculas.
